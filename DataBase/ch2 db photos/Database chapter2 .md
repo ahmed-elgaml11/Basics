@@ -1,9 +1,9 @@
 # chapter 2 .. DataBase System Concept And Architechture 
 # - Data abstraction :
-![2](./1.png)
+![2](.//pics/1.png)
 
 # - Data Model :
-![2](./2.png)
+![2](./pics//2.png)
  
 # categories (classification) of datamodels:
 1. **High level (conceptual):** provides concepts that are close to the way many users precive data,بيخفي التفاصيب عن ال المستخدم 
@@ -22,11 +22,11 @@
 
   ## THE THREE-SCHEMA ARCHITECTURE:
   the goal of it to separate the user applications(interface) from the physical database ,it can be defined at three levels:
-  1. **the internal level:**![3](./3.png) 
-  2. **the conceptual level:**![4](./4.png)
-  3. **the external level:**![5](./5.png)
+  1. **the internal level:**![3](.//pics/3.png) 
+  2. **the conceptual level:**![4](.//pics/4.png)
+  3. **the external level:**![5](.//pics/5.png)
    ## the architecture:.
-   ![6](./6.png)
+   ![6](.//pics/6.png)
    ___
 `Data Independence:` changing the schema at one level at database system without having to change the schema at the next higher level.
 
@@ -36,26 +36,26 @@
  ___
 
  ## DBMS Language:
- ![7](./7.png)
+ ![7](.//pics/7.png)
      ___
 
 ## DBMS Environment:  ` هام جدا جدا`
-![8](./8.png)    
+![8](.//pics/8.png)    
 ___
 # Database system utilities ادوات مساعده :
-## help DBMS-A to manage the database system and improve performance,the utilisies have many functions such that:
+## help DBMS to manage the database system and improve performance,the utilisies have many functions such that:
 -  **loading:** used to load existing data files like text files into the database
 -  **Bachup:** creates backup copy of the database onto tape or other mass storage medium
 -  **DB storage reorganization:** used to reorganize set of database fils and creates new access paths 
 -  **performance monitoring:** monitors database storage and provides statistics to DBA
 ___
 
-## 2-tier client server archiitecture for DBMS:
-![p](./9.png)
+## 2- client server architecture for DBMS:
+![p](.//pics/9.png)
 **ODBM open database  connectivity:**software allows clients to call the server
 
-## 3-tier client server archiitecture for DBMS:
-![p](./10.png)
+## 3- client server archiitecture for DBMS:
+![p](.//pics/10.png)
 
 - وفرتلي حاجات كتير من اهمها ان اي تعديل هعمله علي الweb program هعمله مره واحده بس عند الweb server بدل معمله الاف المرات عند ال clients
 

@@ -10,7 +10,7 @@ includes all modelling concepts of basic ER diagram+
 يعني لو عايز اضيف اي subclass جديد اقدر اضيفه بسهوله       
 ولو اي entity تاني فيه relations مع كل ال subclass ممكن اعملها مع ال superclass ع طول 
 
- ![13](13.png)
+ ![13](./pics/13.png)
 
   
 1. **superclasses and subclases**
@@ -54,7 +54,7 @@ includes all modelling concepts of basic ER diagram+
    بيبقي عندي 2 entities فيها كتير من ال common attribute ف بعمل superclass بحط فيه ال common attributes و بيبقي ال 2 entities نفسهم subclasses وعليهم ال local attributes
 
    **Example:**
-   ![1](1.png)
+   ![1](./pics/1.png)
    ___
    **Two Basic Constraints can be apply to a specialization/generalization**
 
@@ -67,7 +67,7 @@ includes all modelling concepts of basic ER diagram+
 
     يعني ال member في ال superclass لا يصلح الا ان يكون member في subclass واحد فقط (مينفعش يجمع بين اكتر من واحد)
 
-    ![2](2.png)
+    ![2](./pics/2.png)
 
    - overlapping : 
    
@@ -76,13 +76,13 @@ includes all modelling concepts of basic ER diagram+
    يعني ال member في ال superclass  يصلح ان يكون member في اكتر من subclass 
 
 
-   ![3](3.png)
+   ![3](./pics/3.png)
 
 2.    Completeness Constraint:
   
   **Total Completeness** means that every entity in the superclass must be a member of some subclass in the specialization/generalization  shows by `double line`         
   **partial Completeness**: means that it doesn't have to each row (member) in the superclass must be a member of some subclass ,shows by `single line`  
-  ![6](6.png)
+  ![6](./pics/6.png)
 
   كل الemployee يا اما salaried يا اما hourly
 
@@ -94,17 +94,17 @@ includes all modelling concepts of basic ER diagram+
   بعمل column بيحددلي نوع ال subtype الموجوده عندي بدل معمل join لو طلب داتا من جدول بدلاله داتا موجوده في جدول تاني
 
   simple: لو disjoint :
-  ![14](14.png)
+  ![14](./pics/14.png)
 
 
 
   composite: لو overlap:
-  ![15](15.png)
+  ![15](./pics/15.png)
 
 
   ### Mapping:
 
-   ![16](16.png)
+   ![16](./pics/16.png)
 
 
 ___
@@ -115,7 +115,7 @@ ___
   **Lattice:**
   subclass has more than one superclass called `multiple inheritance`
 
-![5](5.png)
+![5](./pics/5.png)
 ___
 #### the main difference between the lattice(shared class) and Union type(category) is:
 
@@ -128,10 +128,10 @@ Engineering Manager (Shared class) is a (Intersect) member at all superclass(Eng
 
 هو الاتحاد بتاع ال superclasses بتوعه
 
-![7](7.png)
+![7](./pics/7.png)
 
 يعني هنا ال owner ممكن يكون company او person او bank 
 
 ___
 ## some examples on the chapter>>>??
- ![8](8.png) ![9](9.png) ![10](10.png) ![11](11.png) ![12](12.png) 
+ ![8](./pics/8.png) ![9](./pics/9.png) ![10](./pics/10.png) ![11](./pics/11.png) ![12](./pics/12.png) 

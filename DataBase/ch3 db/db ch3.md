@@ -1,4 +1,4 @@
-# CH3 kkDataase.. Data Modellind Using The Entity Relationship (ER) model.
+# CH3 Dataase.. Data Modelling Using The Entity Relationship (ER) model.
 ### ال ER MODL:
 **نموذج يستخدم لتمثيل الكيانات التي نحتفظ عنها ببيانات والعلاقات بينها**
 
@@ -11,16 +11,15 @@
 ___
  
 ## Clssification of attributes:.
-- ![2](./2.png)
-- ![1](./1.png)
-- ![4](./4.png)
-- ![3](./3.png)
-- ![5](./5.png)
-- ![6](./6.png)
-- ![7](./)
+- ![2](.//pics/2.png)
+- ![1](.//pics/1.png)
+- ![4](./pics//4.png)
+- ![3](./pics//3.png)
+- ![5](.//pics/5.png)
+- ![6](.//pics/6.png)
   
 ## How to Draw ER Model
-![7](./7.png)  
+![7](.//pics/7.png)  
 `e`:entity `k`:ket attribute `c`: compsite att `m`: multi valued att `d`:derived att
 ___
 ## Relationships: 
@@ -34,7 +33,7 @@ ___
 ## constrains on relationships:
 
 - **cardinality of relationships:**
-![8](./8.png)
+![8](.//pics/8.png)
 
 - **participation constrains مشاركه**
   
@@ -48,9 +47,9 @@ ___
 
    ___
   ## Example on ER diagram>>>THE COMPANY
-  ![10](./10.png)
-  ![9](./9.png)
-  ![11](./111.png)
+  ![10](.//pics/10.png)
+  ![9](./pics//9.png)
+  ![11](.//pics/111.png)
   ## طب ازاي احول الERD الي SCHEMA
 1.  بعمل لكل entity جدول
 1.  بعمل لكل  multivalued attribute جدول وبحط فيه ال key attribute بتاع ال entity الرئيسي ويبقي هم الاتنين primary key

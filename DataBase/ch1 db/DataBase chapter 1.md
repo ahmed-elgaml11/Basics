@@ -1,4 +1,4 @@
-# chapter 1 .. fundamintal of data base systems  (database and database users)
+# chapter 1 .. fundamintals of database systems  (database and database users)
 ### database: 
 is a collection of **related** data , sometimes called **mini wold**, it is designed for specific purpose.
 ### امثله علي قواعد البيانات
@@ -11,7 +11,8 @@ ___
 
 
 ## database management system:
-![db](./1.png)
+![db](./photos/1.png)
+
 هو نظام له غرض عام حيث انه يسهل عمليات 1 -تعريف قواعد البيانات او 2-انشائها و3-التعامل معاها وجعلها مشتركه للجميع اي جعل اكتر من مستخدم يوصلو للبينات في نفس الوقت
 
 `1-defining db : `  dayatypes , structures, constrains of the data معرفة
@@ -51,31 +52,31 @@ DISATVANAGES OF IT:
 ___
 ## characteristics of database approash :
  ### 1.  الداتا بيز مبتحتوييش فقط علي الداتا لا بيتخزن جواها كمان الdefintion..(وصف الداتا بيز)>>> constrains,structure,data types
-![0](./0.png) 
+![0](./photos/0.png) 
 
 ### 2. في فصل بين البرنامج والداتا يعني اي تعديل علي الداتا مش هيتطلب تعديل علي البرنامج كله ...>program - data independence.
- ![db2](./2.png)
+ ![db2](./photos/2.png)
    - التجريد او اخفاء التفاصيل عن المستحدم اسمها **data abstraction**  وعشان اعمل كدا بستخدم **data model**
-       ![db2](./32.png)
+       ![db2](./photos/32.png)
 
 
 ### 3. الداتا بيز بتوفر لكل مستخدم البيانات اللي تخصه مش بيشوف كل حاجه يعني
-   ![db7](./3.png)
+   ![db7](./photos/3.png)
 
 
 ### 4. data is shared
-![png8](./4.png)
+![png8](./photos/4.png)
 
 ___
 ## Actors on the scene الناس اللي بتاعامل معاها في ال داتابيز 
 - `database adminstrator:`
-   ![11](./DBA.png)
+   ![11](./photos/DBA.png)
 - ` Database Designer:`  هو اللي بيحدد الداتا اللي هتتخزن والهيكل بتاعها 
-  ![12](./dd.png)   
+  ![12](./photos/dd.png)   
 - `End user:`
-  ![13](./eu.png)
+  ![13](./photos/eu.png)
 - `software engineer` 
-- ![14](./p.png)
+- ![14](./photos/p.png)
   ___
   ___
   ## Advantages of Using DBMS Approash
